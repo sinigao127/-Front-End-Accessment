@@ -74,6 +74,14 @@ main {
     img{
       max-width: 100%;
     }
+    .description{
+      h3{
+        font-size: 2em;
+      }
+      p{
+        font-size: 2em;
+      }
+    }
   }
 }
 
@@ -156,7 +164,13 @@ main {
             }
           }
 
-          .description {
+          .description{
+            h3{
+              font-size: 1.2em;
+            }
+            p{
+              font-size: 1.2em;
+            }
           }
         }
       }
