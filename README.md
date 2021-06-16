@@ -44,11 +44,11 @@ Every element in CSS is a box. In the center of the box, lies the actual content
       */
 ### Question 3. Return an array of all of the itemsSold properties as strings, sorted alphabetically.
     function allSoldItems(list){
-        return list.map((item) => { return item.price})
+        return list.map((item) => { return item.itemSold}).sort()
     }
+    allSoldItems(sales)
     
-    
-    // The answer is [ 19.99, 159.95, 204.97, 30, 54.95 ]
+    // The answer is ["Cricket bat", "Football", "Hockey stick", "Rugby ball", "Trainers"]
     
 ### Question 4. Using id as an argument, return the sale which matches the id.
     function findSaleById(id, list){
