@@ -1,11 +1,10 @@
-# -Front-End-Accessment
+# Front-End-Accessment
 ## HTML/CSS knowledge check
 ### Box Model
 Every element in CSS is a box. In the center of the box, lies the actual content which is wrap around from inside outwards by the padding, borders, and margins. The padding is inside the borders which includes the background color. Paddings are used to space out the element from itself, while margins are used to space between elements. The margins vertically adjoined each other collapse. By default, the height and width assigned to an element is applied to the content. In most cases, box-sizing is set to border-box in the universal selector, to make browser account for any padding and border in the value of specified width and height.
 ### Project Key Points
     1. Moible first desgin.
     2. Using relative units(em, %), grid template and 2 viewport breaking points to create responsive page. 
-
 ## JS exercise
     const sales = [
     { itemSold: "Football", price: 19.99, dateSold: '2018-04-07', id: 'j_123' },
@@ -16,14 +15,14 @@ Every element in CSS is a box. In the center of the box, lies the actual content
 
 ### Question 1. Return the sum of the price of all properties as a single value
 
-    function sumSalesPrice2(list) {
+    function sumSalesPrice(list) {
       const sum = list.reduce((accumulator, currentValue) => {
         //time 100 to turn doller into cents
         return accumulator + currentValue.price * 100
       }, 0)
       return sum / 100
     }
-    sumSalesPrice2(sales)
+    sumSalesPrice(sales)
     
     // The answer is 469.86  
 ### Question 2. Return the items which were sold in 2017.
