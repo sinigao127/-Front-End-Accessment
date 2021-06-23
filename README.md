@@ -16,6 +16,7 @@ Every element in CSS is a box. In the center of the box, lies the actual content
 ### Question 1. Return the sum of the price of all properties as a single value
 
     function sumSalesPrice(list) {
+      if(list === null || list === undefined) return 'Input List is undefined'
       const sum = list.reduce((accumulator, currentValue) => {
         //time 100 to turn doller into cents
         return accumulator + currentValue.price * 100
@@ -24,7 +25,31 @@ Every element in CSS is a box. In the center of the box, lies the actual content
     }
     sumSalesPrice(sales)
     
-    // The answer is 469.86  
+    // The answer is 469.86 
+    
+    
+    ************ updated version with type checking *********
+    function sumSalesPrice(list) {
+        try {
+            //handling wrong type of list and price
+            if (list === undefined || list === null || !Array.isArray(list)) throw Error(' list is null, undefined or not an array')
+            const checkType = (element) => typeof element.price === "number"
+            if (!list.every(checkType)) {
+                const errorObject = list.find(item => !checkType(item))
+                throw Error(`price of  ${ errorObject.id } is not a number`)
+            }
+    
+            //real logic
+            const sum = list.reduce((accumulator, currentValue) => {
+                //time 100 to turn dollar into cents
+                return accumulator + currentValue.price * 100
+            }, 0)
+            return sum / 100
+        } catch (e) {
+            console.log(e)
+        }
+    
+    } 
 ### Question 2. Return the items which were sold in 2017.
      function findItemByYear(year, list) {
        const item = list.find(item => item.dateSold.startsWith(year))
