@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0693bdda-df54-4783-b3a3-227d45fd1c33" name="Default Changelist" comment="" />
+    <list default="true" id="0693bdda-df54-4783-b3a3-227d45fd1c33" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1uLEOg0jVN2iLPDpZi9R1sHjCxU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BuildAClockWithJavaScript" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -47,11 +55,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624436439959</updated>
-      <workItem from="1624436441190" duration="4518000" />
+      <workItem from="1624436441190" duration="6357000" />
+      <workItem from="1624483369851" duration="52000" />
+      <workItem from="1624483818033" duration="255000" />
+      <workItem from="1624485116586" duration="300000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="-826" key="FileChooserDialogImpl" timestamp="1624483833216">
+      <screen x="0" y="-1080" width="1920" height="999" />
+    </state>
+    <state x="740" y="-826" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.999/-1080.-1090.1080.1880@0.-1080.1920.999" timestamp="1624483833216" />
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1624443030914">
+      <screen x="0" y="-1080" width="1920" height="999" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824/-1080.-1090.1080.1880/0.-1080.1920.999@0.-1080.1920.999" timestamp="1624443030914" />
+    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1624443030914">
+      <screen x="0" y="-1080" width="1920" height="999" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.center/0.0.1536.824/-1080.-1090.1080.1880/0.-1080.1920.999@0.-1080.1920.999" timestamp="1624443030914" />
+    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1624443030914">
+      <screen x="0" y="-1080" width="1920" height="999" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.left/0.0.1536.824/-1080.-1090.1080.1880/0.-1080.1920.999@0.-1080.1920.999" timestamp="1624443030914" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1624443030914">
+      <screen x="0" y="-1080" width="1920" height="999" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.right/0.0.1536.824/-1080.-1090.1080.1880/0.-1080.1920.999@0.-1080.1920.999" timestamp="1624443030914" />
   </component>
 </project>

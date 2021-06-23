@@ -12,8 +12,8 @@ function sumSalesPrice(list) {
     try {
         //handling wrong type of list and price
         if (list === undefined || list === null || !Array.isArray(list)) throw Error(' list is null, undefined or not an array')
-        const checkType = (element) => typeof element.price === "number"
-        if (!list.every(checkType)) {
+        const checkPriceType = (element) => typeof element.price === "number"
+        if (!list.every(checkPriceType)) {
             const errorObject = list.find(item => !checkType(item))
             throw Error(`price of  ${ errorObject.id } is not a number`)
         }
